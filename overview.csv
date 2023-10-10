@@ -1,2 +1,13 @@
-Year,Name,Language
-2020,JsFix,JS
+Year,Name,Language,Needs Library Developer Annotations
+1996,Notkin,C,Yes?
+2006,Coccinelle,C?,Yes?
+2010,LibSync,?,?
+2011,SemDiff,?,?
+2012,Coccinelle4J,Java,Yes?
+2018,CiD,?,?
+2019,AppEvolve,?,?
+2020,JsFix,JS,Yes
+2020,PyCompat,Python,?
+2022,CombyInferPy,?,?
+2022,Towards,?,?
+2023,AndroMevol,?,?
