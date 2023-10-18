@@ -1,13 +1,13 @@
-Year,Name,Language,Needs Library Developer Annotations
-1996,Notkin,C,Yes?
-2006,Coccinelle,C?,Yes?
-2010,LibSync,?,?
-2011,SemDiff,?,?
-2012,Coccinelle4J,Java,Yes?
+Year,Name,Domain,Data source,Core Idea,Change Complexity
+1996,Notkin,C,Lib author annotations,Syntax Matching,Simple changes to how to call functions etc.
+2006,Coccinelle,C->Linux Drivers,Lib author annotations,CTL / CFG Matching,Whole-function rewriting
+2008,SemDiff,Java,Mined from internal usage changes,?,Simple changes to how to call functions etc.
+2010,LibSync,Java,Mined from other client changes,Tree / Graph diffing,Whole-function rewriting
 2018,CiD,?,?
 2019,AppEvolve,?,?
-2020,JsFix,JS,Yes
-2020,PyCompat,Python,?
+2019,Coccinelle4J,Java,Lib author annotations,CTL / CFG Matching,Whole-function rewriting
+2020,JsFix,?,Yes
+2020,PyCompat,?,?
 2022,CombyInferPy,?,?
 2022,Towards,?,?
 2023,AndroMevol,?,?
