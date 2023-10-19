@@ -3,11 +3,11 @@ Year,Name,Domain,Data source,Core Idea,Change Complexity
 2006,Coccinelle,C->Linux Drivers,Lib author annotations,CTL / CFG Matching,Whole-function rewriting
 2008,SemDiff,Java,Mined from internal usage changes,?,Simple changes to how to call functions etc.
 2010,LibSync,Java,Mined from other client changes,Tree / Graph diffing,Whole-function rewriting
-2018,CiD,?,?
-2019,AppEvolve,?,?
+2018,CiD,Java Bytecode->Android,Mined from library changes,,NO REPAIR - only detection of simple incompatible / unguarded calls
+2019,AppEvolve,Java->Android,Mined from other client changes,AST diffing / matching,?
 2019,Coccinelle4J,Java,Lib author annotations,CTL / CFG Matching,Whole-function rewriting
-2020,JsFix,?,Yes
-2020,PyCompat,?,?
-2022,CombyInferPy,?,?
-2022,Towards,?,?
-2023,AndroMevol,?,?
+2019,DiffCode,Java->Crypto API,Mined from other client changes,API call site usage DAGs + some static analysis,?
+2020,JsFix,JS,Lib author annotations,?,?
+2020,PyCompat,Python,Mined from library changes,Empirically we only need to focus on simple changes,Simple changes (API renaming & parameter renaming)
+2022,CombyInferPy,Python->DS,Mined from internal usage changes,Use Comby rewrite langauge,single-line changes
+2023,AndroMevol,Java->Android,Mined from library changes,Just determine what the incompatible APIs are in the library,
